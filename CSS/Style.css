@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+header > h1{
+	text-transform:uppercase;
+	text-align:center;
+	animation:doimau ease-in 3s infinite;
+}
+
+@keyframes doimau{
+	0% {
+		color:#F00;}
+	50%{
+		color:#00F;}
+	75%{
+		color:#FF0;}
+}
+	
+nav {
+	background-color:#ccc;
+}
+nav > ul {
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	display:flex;
+}
+nav > ul > li > a {
+	display:block;
+	padding:15px 10px;
+	text-decoration:none;
+}
+
+nav > ul > li > a:hover{
+	background-color:#00F;
+	color:#fff;
+	}
+
+nav > ul > li:last-child{
+	margin-left:auto;
+	}
+	
+nav > ul > li {
+	border-right:solid #FFF;
+	min-width:120px;
+	text-align:center;
+	}
+
+section.content{
+	background-color:#999;
+	}
+	
+div.language{
+	display:flex;
+	border-bottom:1px solid #fff;
+	margin-top:5px;
+	margin-bottom:5px;
+	}
+div.language img{
+	transition:transform ease-in.5s;}
+	
+	
+div.language img:hover{
+	transform:skew(-20deg);}
+	
+	
+div.language > div{
+	padding:10px;
+	}
+	
+p{
+	margin:0;}
+	
+footer {
+	text-align:center;
+	background-color:#006;
+	color:#fff;
+	}
+	
+div.language img {
+	display:block;}
